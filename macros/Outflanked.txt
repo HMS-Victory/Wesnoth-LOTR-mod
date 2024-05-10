@@ -1,0 +1,45 @@
+#define ABILITY_FORMATION_LOTR
+    # Canned definition of the Steadfast ability to be included in an [abilities]
+    # clause.
+    [resistance]
+        id=formation
+        multiply=2
+        max_value=35
+        # applies to any type if we leave it out
+        #apply_to=blade,pierce,impact,fire,cold,arcane
+		[filter_self]
+            [filter_adjacent]
+                ability=formation
+                is_enemy=false
+            [/filter_adjacent]
+        [/filter_self]
+        [filter_base_value]
+            greater_than=0
+            less_than=50
+        [/filter_base_value]
+        name= _ "formation"
+        female_name= _ "female^formation"
+        description= _ " When standing next to another with the same ability, This unit’s resistances are doubled, up to a maximum of 50%, when defending. Vulnerabilities are not affected."
+        affect_self=yes
+        active_on=defense
+    [/resistance]
+#enddef
+
+#define WEAPON_SPECIAL_BACKSTAB
+    # Canned definition of the Backstab ability to be included in a
+    # [specials] clause.
+    [damage]
+        id=backstab
+        name= _ "backstab"
+        description= _ "When used offensively, this attack deals double damage if there is an enemy of the target on the opposite side of the target, and that unit is not incapacitated (turned to stone or otherwise paralyzed)."
+        multiply=2
+        active_on=offense
+        [filter_opponent]
+            formula="
+                enemy_of(other, flanker) and not other.petrified
+            where
+                flanker = unit_at(direction_from(loc, other.facing))
+            "
+        [/filter_opponent]
+    [/damage]
+#enddef

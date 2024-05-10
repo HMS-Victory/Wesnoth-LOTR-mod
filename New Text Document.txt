@@ -1,0 +1,47 @@
+#textdomain wesnoth- MUSIC
+
+#define ABILITY_MUSIC
+   [dummy]
+      id=music
+      name=_ "music"
+      description=_ "This ability adds faction specific music to gameplay"
+   [/dummy]
+   [event]
+      name=start
+      [filter]
+         race=human
+      [/filter]
+      {REPLACE_SCENARIO_MUSIC loyalists.ogg}
+       
+       {APPEND_MUSIC loyalists.ogg}
+       [filter]
+          race=orc
+       [/filter]
+       {REPLACE_SCENARIO_MUSIC northerners.ogg}
+       
+       {APPEND_MUSIC loyalists.ogg}
+   [/event]
+#enddef
+
+#define ABILITY_MUSIC
+   [dummy]
+      id=music
+      name=_ "music"
+      description=_ "This ability adds faction specific music to gameplay"
+   [/dummy]
+   [event]
+      name=start
+      [filter]
+         race=human
+      [/filter]
+      {REPLACE_SCENARIO_MUSIC DEFAULT_PLAYLIST.ogg}
+       
+       {APPEND_MUSIC loyalists.ogg}
+       [filter]
+          race=orc
+       [/filter]
+       {REPLACE_SCENARIO_MUSIC DEFAULT_PLAYLIST.ogg}
+       
+       {APPEND_MUSIC loyalists.ogg}
+   [/event]
+#enddef

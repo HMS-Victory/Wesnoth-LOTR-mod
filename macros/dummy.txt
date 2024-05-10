@@ -1,0 +1,7 @@
+ [dummy]
+       [event]
+       name=start
+       {REPLACE_SCENARIO_MUSIC:The_Realm_of_Gondor.ogg}
+       {APPEND_MUSIC:The_Realm_of_Gondor.ogg}
+       [/event]
+   [/dummy]

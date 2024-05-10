@@ -1,0 +1,2 @@
+All sword Cavalry Need to have an impact attack with {ABILITY_CHARGE} and titled Trample
+

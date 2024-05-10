@@ -1,0 +1,61 @@
+alliance – leadership
+This unit is very well versed in team tactics so that adjacent units with the same ability deal 35% more damage.		(Theodan, Aragorn, Farimir, Beregond, and other skilled leaders)
+
+aura of hunger – dummy
+All adjacent allies gain melee drain that drains 25% of the damage dealt (instead of the usual 50%).		(Wargs and some orcs)
+
+careful – resistance
+This unit’s resistances are increased by INTENSITY, up to a maximum of 80%, when defending. Vulnerabilities are not affected.
+
+conviction (INTENSITY) – resistance
+This unit's presence is so darkly ominous that all adjacent enemies struggle with the guilt of their evil deeds, reducing their fire, cold and arcane resistances by INTENSITY%.
+
+darkens badly – illuminates
+This unit darkens the surrounding area, making chaotic units fight better, and lawful units fight worse.
+Any units adjacent to this unit will fight as if it were dusk when it is day, as if it were night when it is dusk and the improvement of the chaotic units during the night is incredible.		(Nazgul)
+
+darkens severely – illuminates
+This unit darkens the surrounding area, making chaotic units fight better, and lawful units fight worse.
+Any units adjacent to this unit will fight almost as if it were night when it is day, as if it were darker than the darkest night when it is dusk and the improvement of the chaotic units during the night is incredible.		(Sauron)
+
+flaming radiance – dummy
+All adjacent foes to this unit take fire damage every turn. At first turn, they take 8 damage and this number increases by 8 every turn they stand in the range of this ability. This ability cannot kill.	(Balrog)
+
+necromancy – dummy
+If this unit dies, it becomes a lich.			(Frodo, but he doesn't become a lich, just a wraith)
+
+penetrates – dummy
+This unit gains 1 movement after attacking, allowing it to slowly progress through ranks of enemies if it can survive their attacks.			(Rohan)
+
+snow ambush – hides
+This unit can hide on frozen terrains, and remain undetected by its enemies.
+Enemy units cannot see this unit while it is on frozen terrains, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement.	(Snow trolls)
+
+twilightstalk – hides
+The unit becomes invisible during dawn or dusk, hiding in long shadows created by the sun near the horizont.
+Enemy units cannot see this unit during dawn or dusk, except if they have units next to it. Any enemy unit that first discovers this unit immediately loses all its remaining movement.			(Silvans)
+
+wardrums – dummy
+All adjacent members of the same side get +2 to movement at the start of their turn.			(Misty Mountains)
+
+cleave – damage
+This attack will hit additional enemies in the two hexes that are adjacent to both the attacker and defender, in a crescent moon shape, for 50% of the original damage. It is so tiring that the unit's damage decreases by 2 after the attack, the damage penalty will half each turn.
+
+disintegrate – damage
+Every blow with this weapon has a 2% chance to kill an enemy without any checks.			(Black Arrow)
+
+explosive damage – damage
+When this attack is used offensively, all units adjacent to the target take 10 damage.
+
+explosive slow – damage
+When this attack is used, all enemies adjacent to a target are slowed.
+
+parry – dummy
+When the target misses, the attacker will hit him without any checks.
+
+shockwave – slow
+This attack is so strong that it slows the target, and creates a shock wave that knocks all enemies adjacent to the target 1 hex away from it, and causes them to take 8 impact damage. When used defensively, it only slows the attacker.		(Sauron)
+
+struggle – chance_to_hit
+This attack causes the opponent to have a 10% lower chance to hit.			(Boromir, and others)
+
